@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+		shrink-to-fit=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+	<title>Mathe1App</title>
+
+	<style>
+		@import 'ui/css/evothings-app.css';
+	</style>
+
+	<script>
+	// Redirect console.log to Evothings Workbench.
+	if (window.hyper && window.hyper.log) { console.log = hyper.log }
+	</script>
+
+</head>
+
+<body ontouchstart=""><!-- ontouchstart="" enables low-delay CSS transitions. -->
+
+	
+
+	<img class="logotype" src="ui/images/btu_logo.png" alt="Evothings" />
+
+	<header>
+		
+
+		<img class="logosponsored" src="ui/images/fmer_logo.png" alt="Evothings" />
+		
+		<!--<button class="menu" onclick=""><img src="ui/images/menu.svg" /></button>-->
+	</header>
+<h1>Detailed information on the conduct of the program:</h1>
+	
+
+	
+
+	<p>1 Take paper and a pencil.</p>
+	<p>2 Start with the first task.</p>
+	<p>3 Please read the task carefully and if necessary use the online help for the tasks.</p>
+	<p>4 Start with the solution of the tasks. At the same time the timer is started. The greater the difficulty of the task, the more time you have available.</p>
+	<p>5 Personal assessment: Assess yourself on a five-point scale integer if you felt in solving the task completely insecure (-2) to fully secure (+2).</p>
+	<p>6 Compare your solution with the sample solution.</p>
+	<p>7 Correctness: Choose here in percent compliance with the sample solution.</p>
+	<p>8 Statistics: The overall results are output for each task of the tests in the form of a diagram. The yellow line indicates where the results should be.  Bellow the line, it means you should still do something and above the range means your score is good or very good.</p>
+	<p>8.1 Feeling Graph: it has a scale from -2 to +2, and the personal score should be above the yellow line.</p>
+	<p>8.2 Time Graph: it is shown in a range bar, where the elapsed time is the lower end and the time for the Task is in the upper side, the elapsed time should remain below the yellow line.</p>
+	<p>8.3 Correctness Graph: it is shown as an bar chart, the score should be above the yellow line.
+	<p>To display the different Graphs (Results, Time and Feeling), you have to tap at the statistics.</p>
+	<p>9. With the New Button you start from the beginning, the tasks will be randomized so you will get other tasks then before.</p>
+	<p>Impressum: People involved in the app development: Tobias Kutzner, Christian Steinert, Abdellah Azendour, Carlos Trujillo, Jacqueline Bothe, Prof. Dr.-Ing. Ingrid Bönninger, Prof. Dr. habil. Olga Wälder, Dr. rer. nat. Bodo Wolf</p>
+	<p>Kontakt: Tobias.Kutzner@b-tu.de</p>
+
+	<button class="back" onclick="history.back()">
+		<img src="ui/images/arrow-left.svg" />
+	</button>
+
+	<script src="cordova.js"></script>
+	<script src="libs/evothings/evothings.js"></script>
+	<script src="libs/evothings/ui/ui.js"></script>
+	<!-- TODO: Add libraries that you need -->
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+/* Common styles for Evothings examples and client. */
+
+/*Ü@import '../fonts/ProximaNova.css';*/
+
+header {
+	position: fixed;
+	background-color: #000000;
+		top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+header img.logosponsored {
+	/*-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);*/
+	width: 100%;
+    height: auto;
+}
+
+/*h1 {
+	/*width: 100%;
+	margin: 0;
+	padding: 0;
+
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: normal; 
+	text-align: left;
+	/*vertical-align: middle;
+	color: #eee;
+
+	/*overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+    width: 100%;
+    height: 100%;
+    /*top:0;*/
+    /*left:0;*/
+	/*position:fixed;
+	color: #21ABCD;
+    /*z-index: -1;   
+}*/
+
+h1 {
+	color: #21ABCD;
+	/*padding: 0;*/
+	/*margin: 1em 0 0 0;*/
+
+	font-family: 'Bold';
+	font-size: 90%;
+	line-height: 1.5;
+
+	/*vertical-align: baseline;*/
+}
+
+/*header + h1, body h1:first-child, main h1:first-child, article h1:first-child {
+	margin-top: 0;
+}*/
+
+p {
+	/*margin: 0.4em 0 0.4em 0;*/
+	/*padding: 0;*/
+
+	font-size: 85%;
+	line-height: 1.5;	
+	color: #CFCFCF;
+}
+
+p1 {
+	/*margin: 0.4em 0 0.4em 0;*/
+	/*padding: 0;*/
+	font-size: 1;
+	line-height: 1.5;	
+	color: #000000;
+}
+
+body {
+	position: relative;
+	background-color: #000000;
+}
+
+footer {
+	position: fixed;
+	background-color: #000000;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+table {
+	border-collapse: collapse;
+	background-color: #000000;
+
+	color: #CFCFCF;
+	padding: 0px;
+    margin: 0px;
+    width: 100%;
+   	font-size: 85%;
+	line-height: 1.5;	
+	
+}
+
+td {
+
+	border-collapse: collapse;
+	background-color: #000000;
+	padding: 0px;
+    margin: 0px;
+    color: #CFCFCF;
+   	font-size: 85%;
+	line-height: 1.5;	
+	Height: relativ  
+}
+
+button {
+	width: 100%;
+	height: auto;
+}
